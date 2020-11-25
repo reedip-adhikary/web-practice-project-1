@@ -1,0 +1,494 @@
+
+
+/* ========html===== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    background-color: rgb(249, 250, 243);
+}
+
+
+
+
+/* ======================= utility =============== */
+
+.container{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+ul li{
+    list-style: none;
+}
+
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.8rem;
+    /* margin-bottom: 0.8em; */
+    letter-spacing: 0.15em;
+}
+
+li{
+    font-size: 0.1rem;
+    margin-bottom: 0.8em;
+    letter-spacing: 0.15em;
+}
+
+h1, h2, h3{
+    margin-bottom: 0.8em;
+    letter-spacing: 00.15em;
+    font-weight: 500;
+}
+
+.bg-dark{
+    background-image: linear-gradient( 112.1deg,  rgb(19, 24, 37) 11.4%, rgb(28, 37, 63) 70.2% );
+}
+
+
+
+
+
+
+
+.lg{
+    font-size: 4rem;
+}
+
+.md{
+    font-size: 2rem;
+}
+
+.sm{
+    font-size: 1rem;
+}
+.textred{
+    color: #eea639;
+}
+
+.textlight{
+    color: #f4f4f4;
+}
+
+.textdark{
+    color: #333333;
+}
+.textgray{
+    color: #555555;
+}
+.textwhite{
+    color: white;
+}
+
+
+.btn{
+    border: goldenrod 2px solid;
+    padding: 0.5em 3em 0.5em 3em;
+    border-radius: 5em;
+    background-color: rgb(249, 250, 243);
+    display: inline-block;
+    font-weight: 500;
+    margin: 0.5em;
+    text-transform: uppercase;
+}
+
+.btnhover:hover{
+    background-color: rgb(202, 202, 202);
+}
+
+
+.btnhover2:hover{
+    background-color: rgba(218, 165, 32, 0.26)
+}
+
+
+/* =================== header ================= */
+
+
+
+
+
+.header{
+    height: 95vh;
+    position: relative;
+    background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1539035104074-dee66086b5e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(128, 128, 128, 0.719) 5px 0px 20px 5px;
+}
+
+.navbar a:link,
+.navbar a:visited{
+    color: white;
+     
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5rem;
+}
+
+.navbar .logo{
+    width: 6rem;
+    height: 6rem;
+    float: left;
+}
+
+.navbar .navitems{
+    float: right;
+    margin-top: 1rem;
+} 
+
+.navbar .nav-item{
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar{
+    width: 100vw;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+nav.bg-dark{
+    padding-top: 4rem;
+    margin-top: 0;
+}
+nav .logo{
+    margin-bottom: 4rem;
+}
+
+
+.navbar{
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+
+div.header-content{
+    max-width: 1000px;
+    width: 80vw;
+    /* border: 1px solid white; */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div.header-content h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+div.header-content p{
+    font-size: 1rem;
+    margin-bottom: 3em;
+    text-transform: uppercase;
+}
+
+div.header-content{
+    background: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0));
+}
+
+a.btn{
+    font-size: 1rem;
+}
+
+/* =================== body ================ */
+
+.show{
+    background: #ddd;
+    padding: 10rem 0;
+}
+
+.row{
+    height: 350px;
+    box-shadow: rgb(170, 169, 169) 0px 0px 20px 0px;
+}
+
+.row1, .row2, .row3{
+    margin-bottom: 10rem;
+}
+
+.row1 .img, .row2 .textbox, .row3 .img, .row4 .textbox{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.row1 .textbox, .row2 .img, .row3 .textbox, .row4 .img{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.textbox{
+    background: white;
+    padding: 2rem;
+}
+
+.textbox h2{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.textbox p{
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    color: #555555;
+}
+
+.bb1{
+    margin-left:0 ;
+    margin-top: 4rem;
+    padding: 0.5em 2.5em;
+}
+
+.row1 .img{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/738/62/544/naruto-chidori-naruto-naruto-uzumaki-rasengan-naruto-sasuke-uchiha-hd-wallpaper-preview.jpg');
+}
+
+.row2 .img{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/482/39/692/one-piece-franky-nami-sanji-wallpaper-preview.jpg');
+}
+
+.row3 .img{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/845/469/115/bleach-hollow-ichigo-ichigo-kurosaki-zangetsu-bleach-wallpaper-preview.jpg');
+}
+
+.row4 .img{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/708/846/337/anime-demon-slayer-kimetsu-no-yaiba-tanjirou-kamado-hd-wallpaper-preview.jpg');
+}
+
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ============== features========== */
+
+div.boxwrap{
+    margin-bottom: 8rem;
+    margin-top: 10rem;
+    margin-right: 0.1rem;
+
+    /* border: green 1px solid; */
+}
+
+div.boxwrap div.box{
+    width: 39.933rem;
+    max-width: 100%;
+    float: left;
+    padding: 1.5rem;
+    text-align: center; 
+    margin-bottom: 2.5rem;
+    box-shadow: rgb(170, 169, 169) 0px 0px 20px 0px;
+}
+
+.box1, .box3{
+    color: white;
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgb(37, 48, 82) 70.2% );
+}
+
+.box2{
+    color: white;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,203,50,1) 0%, rgba(244,56,98,1) 100.2% );
+}
+
+.box h2{
+    margin-bottom: 0.7rem;
+}
+
+.boxwrap::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.blue{
+    color:  rgb(37, 48, 82);
+}
+
+
+/* ==================== foot ============= */
+
+
+.footer{
+    background-image: linear-gradient( 112.1deg,  rgb(19, 24, 37) 11.4%, rgb(28, 37, 63) 70.2% );
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 0;
+    width: 100%;
+}
+
+.footer p{
+    font-size: 1rem;
+}
+.foot i{
+    margin: 2rem;
+}
+
+
+
+/* ============ about page============== */
+
+
+.about{
+    padding: 5rem 0;
+}
+
+.about h2{
+    border-bottom: 0.5rem solid goldenrod;
+    position: relative;
+}
+
+.about h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.about p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* ============== list =========== */
+
+.container .block{
+    width: 100%; 
+    min-width: 40rem;
+    padding: 2.8em;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-top: 4rem;
+}
+
+.block li{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.block i{
+    color: goldenrod;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+.block1{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.block2{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.container .block::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ======== add================ */
+
+span{
+    color: goldenrod;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.add{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.add::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.adds p{
+    font-weight: 600;
+}
+
+
+/* ====== banner ====== */
+
+.banner{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,203,50,1) 0%, rgba(244,56,98,1) 100.2% );
+    padding: 1rem 3rem;
+
+    box-shadow: 5px 5px 20px #33333331;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.para{
+    float: left;
+    width: 60%;
+}
+
+.con{
+    text-align: center;
+    float: right;
+    width: 40%;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.banner::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.line{
+    font-weight: 500;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 1.5rem;
+}
+
+.con a{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.7rem;
+    border: #ddd 0.2rem solid;
+    padding: 0.5em;
+    border-radius: 50rem;
+}
+
+.con a:hover{
+    background-color: rgba(255, 230, 0, 0.26);
+    text-decoration: underline #ddd;
+}
