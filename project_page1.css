@@ -20,6 +20,7 @@ body{
 
 
 
+
 /* ======================= utility =============== */
 
 .container{
@@ -550,7 +551,7 @@ span{
 }
 
 .companyimg img{
-    /* border: 1px solid green; */
+    
     margin: 0rem auto;
 
     position: absolute;
@@ -618,4 +619,114 @@ span{
 
 button:active{
     background-color: rgba(218, 165, 32, 0.596);
+}
+
+
+/* ========= media ======= */
+
+@media (max-width: 500px) {
+    html{
+        font-size: 5px;
+    }
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .navbar .navitems, .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img, .row .textbox{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .row .img{
+        height: 200px;
+        background-size: cover;
+    }
+
+
+    .navbar .logo{
+        margin: 0rem auto 2rem auto;
+        display: block;
+        width: 5rem;
+        height: 5rem;
+        float: none;
+    }
+
+    .box{
+        float: none;
+        margin: 2rem auto;
+    }
+
+    .block1, .block2{
+        float: none;
+        text-align: center;
+    }
+
+    .container .adds{
+        display: none;
+    }
+
+    .container .banner{
+        margin-top: 1rem;
+    }
+
+    .container .block{
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    .container .block li{
+        display: block;
+        margin: 0.5em auto;
+    }
+
+    .about{
+        padding: 4rem 0 0rem 0rem;
+    }
+
+
+    .companyimg{
+        display: none;
+        height: 300px;
+    }
+
+    .callus p.marginbot{
+        margin-bottom: 2rem;
+    }
+
+    .con a{
+        font-size: 1.2rem;
+        margin-left: 1em;
+        padding: 1em;
+        margin-top: 1em;
+    }
+
+    .company h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+
+    .company{
+        float: none;
+        width: 100%;
+    }
+    
+    .formfill{
+        float: none;
+        width: 100%;        
+    }
 }
