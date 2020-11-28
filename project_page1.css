@@ -749,19 +749,15 @@ button:active{
 
     .formhead h2{
         font-size: 1.7rem;
-        width: 80%;
+        width: 90%;
     }
 
     .formhead p{
         font-size: 1rem;
-        width: 80%;
+        width: 90%;
     }
 
     .formform{
-        width: 80%;
-    }
-
-    div.formfill, div.company{
-        width: 10%;
+        width: 90%;
     }
 }
